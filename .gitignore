@@ -1,24 +1,53 @@
+# Compiled Java classes and JAR files
+target/
+
+# IDE-specific files and directories
+.settings/
+.project
+.classpath
+
+# Maven-specific files and directories
+.mvn/
+.m2/
+
+# Eclipse-specific files
+.metadata/
+
+# System-specific files
+*.log
+*.swp
+*.bak
+
+# Application-specific files
+# For example, if you generate log files, you might want to exclude them
+# logs/
+
+# Ignore local configuration files that contain sensitive information
+# config/application.properties
+# config/database.properties
+
+
 # Compiled class file
-*.class
+# *.class
 
 # Log file
-*.log
+# *.log
 
 # BlueJ files
-*.ctxt
+# *.ctxt
 
 # Mobile Tools for Java (J2ME)
-.mtj.tmp/
+# .mtj.tmp/
 
 # Package Files #
-*.jar
-*.war
-*.nar
-*.ear
-*.zip
-*.tar.gz
-*.rar
+# *.jar
+# *.war
+# *.nar
+# *.ear
+# *.zip
+# *.tar.gz
+# *.rar
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
-replay_pid*
+# hs_err_pid*
+# replay_pid*
