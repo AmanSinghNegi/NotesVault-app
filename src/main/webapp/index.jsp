@@ -1,4 +1,7 @@
-<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<%@page import="com.DB.DBConnect"%>
+<%@page import="java.sql.Connection"%>
+
+<%@ page language = "java" contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
     <head>
@@ -37,6 +40,11 @@
        <h2 class="text-center">ONLINE NOTES</h2>
        </div>
        <br>
+       
+       <% Connection conn = DBConnect.getConn(); 
+       	  out.println("ok"+conn);
+       %>
+       
        <div class="container">
        <h3  style="text-decoration-color: green; margin-bottom:20px;" class ="text-center">
        JAVA NOTES</h3>
